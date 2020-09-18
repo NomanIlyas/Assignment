@@ -1,0 +1,6 @@
+services:
+    app.repository.invoice:
+      class: 'AppBundle\Repository\InvoiceRepository'
+      factory: ["@doctrine", 'getRepository']
+      arguments:
+        - 'AppBundle:Invoice'
