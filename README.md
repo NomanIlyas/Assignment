@@ -11,6 +11,16 @@ application that you can use as the skeleton for your new applications.
 For details on how to download and get started with Symfony, see the
 [Installation][1] chapter of the Symfony Documentation.
 
+INSTALLATION & SETUP
+--------------------
+
+NOTE:Set the database connection in parameter.yml file. 
+
+* composer install 
+* bin/console doctrine:schema:create
+* bin/console doctrine:migrations:migrate
+* bin/console server:start localhost
+
 What's inside?
 --------------
 
